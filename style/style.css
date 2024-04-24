@@ -1,0 +1,41 @@
+body {
+    background-color: #282828;
+    color: #fff;
+    font-family: Bahnschrift;
+  }
+
+  .calculator {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #383838;
+    text-align: center;
+  }
+
+  .input-fields {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+
+  input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .operator {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+
+  .result {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }

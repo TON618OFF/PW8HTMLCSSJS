@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Базовый калькулятор</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+  <div class="calculator">
+    <h1>Базовый калькулятор</h1>
+    <form id="calculator-form">
+      <div class="input-fields">
+        <input type="number" id="num1" placeholder="Первое число" required>
+        <select class="operator" id="operator">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input type="number" id="num2" placeholder="Второе число" required>
+      </div>
+      <button type="submit" id="calculate-button">Рассчитать</button>
+    </form>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+</html>
